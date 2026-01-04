@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-
 const Imprint = () => {
-  return (
-    <div className="min-h-screen flex flex-col bg-background">
+  return <div className="min-h-screen flex flex-col bg-background">
       {/* Header */}
       <header className="w-full border-b border-border/50">
         <div className="container mx-auto px-6 py-5 flex items-center justify-between">
@@ -19,10 +17,7 @@ const Imprint = () => {
       {/* Main Content */}
       <main className="flex-1 px-6 py-16">
         <div className="container mx-auto max-w-2xl">
-          <Link 
-            to="/" 
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-200 mb-8"
-          >
+          <Link to="/" className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-200 mb-8">
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </Link>
@@ -33,7 +28,7 @@ const Imprint = () => {
           
           <div className="space-y-6 text-muted-foreground">
             <section>
-              <h2 className="text-lg font-medium text-foreground mb-2">Company Information</h2>
+              <h2 className="text-lg font-medium text-foreground mb-2">Angaben gemäß § 5 TMG</h2>
               <p>Startup GmbH</p>
               <p>Sample Street 123</p>
               <p>12345 City, Country</p>
@@ -66,16 +61,11 @@ const Imprint = () => {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Startup. All rights reserved.
           </p>
-          <Link 
-            to="/imprint" 
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
-          >
+          <Link to="/imprint" className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200">
             Imprint
           </Link>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Imprint;
