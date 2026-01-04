@@ -21,10 +21,19 @@ const Index = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground tracking-tight leading-tight mb-8">
             Building the Future of Innovation
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
             We're crafting something extraordinary. Our team is dedicated to revolutionizing the way 
             you experience technology. Stay tuned as we prepare to launch a product that will transform 
             your digital landscape.
+          </p>
+          <p className="text-lg md:text-xl text-muted-foreground">
+            Want to join us or have another request? Contact us at{" "}
+            <a 
+              href="mailto:info@mkind.net" 
+              className="text-foreground hover:underline transition-colors duration-200"
+            >
+              info@mkind.net
+            </a>
           </p>
         </div>
       </main>
