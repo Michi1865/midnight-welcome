@@ -28,28 +28,29 @@ const Imprint = () => {
           
           <div className="space-y-6 text-muted-foreground">
             <section>
-              <h2 className="text-lg font-medium text-foreground mb-2">Angaben gemäß § 5 TMG</h2>
-              <p>Startup GmbH</p>
-              <p>Sample Street 123</p>
-              <p>12345 City, Country</p>
+              <h2 className="text-lg font-medium text-foreground mb-2">Angaben gemäß § 5 DDG</h2>
+              <p>Michael Sauer</p>
+              <p>80797 München
+Deutschland</p>
+              
             </section>
             
             <section>
-              <h2 className="text-lg font-medium text-foreground mb-2">Contact</h2>
-              <p>Email: hello@startup.com</p>
-              <p>Phone: +1 234 567 890</p>
+              <h2 className="text-lg font-medium text-foreground mb-2">Kontakt</h2>
+              <p>E-Mail: info@mkind.com</p>
+              
             </section>
             
             <section>
-              <h2 className="text-lg font-medium text-foreground mb-2">Legal Representative</h2>
-              <p>John Doe, Managing Director</p>
+              <h2 className="text-lg font-medium text-foreground mb-2">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h2>
+              <p>Michael Sauer</p>
             </section>
             
             <section>
-              <h2 className="text-lg font-medium text-foreground mb-2">Registration</h2>
-              <p>Commercial Register: HRB 12345</p>
-              <p>Registration Court: District Court City</p>
-              <p>VAT ID: DE123456789</p>
+              <h2 className="text-lg font-medium text-foreground mb-2">Verbraucherstreitbeilegung (§ 36 VSBG):</h2>
+              
+              <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+              
             </section>
           </div>
         </div>
