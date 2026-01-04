@@ -9,7 +9,8 @@ const Imprint = () => {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-semibold text-sm">S</span>
             </div>
-            <span className="text-foreground font-medium text-lg tracking-tight">Startup</span>
+            <span className="text-foreground font-medium text-lg tracking-tight">mkind
+          </span>
           </Link>
         </div>
       </header>
