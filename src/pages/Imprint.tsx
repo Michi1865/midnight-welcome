@@ -61,7 +61,7 @@ Deutschland</p>
       <footer className="w-full border-t border-border/50">
         <div className="container mx-auto px-6 py-6 flex items-center justify-between">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Startup. All rights reserved.
+            © {new Date().getFullYear()} mkind. All rights reserved.
           </p>
           <Link to="/imprint" className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200">
             Imprint
