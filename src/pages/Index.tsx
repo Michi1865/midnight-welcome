@@ -4,12 +4,7 @@ const Index = () => {
       {/* Header */}
       <header className="w-full border-b border-border/50">
         <div className="container mx-auto px-6 py-5 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-semibold text-sm">S</span>
-            </div>
-            <span className="text-foreground font-medium text-lg tracking-tight">mkind</span>
-          </div>
+          <span className="text-foreground font-medium text-lg tracking-tight">mkind</span>
         </div>
       </header>
 
