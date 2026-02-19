@@ -26,13 +26,9 @@ const Imprint = () => {
           <div className="space-y-6 text-muted-foreground">
             <section>
               <h2 className="text-lg font-medium text-foreground mb-2">Angaben gemäß § 5 DDG</h2>
-              <p>Michael Sauer 
-
-
-            </p>
-              <p>80797 München
-Deutschland</p>
-              
+              <p>Michael Sauer </p>
+              <p>Freddie-Mercury-Straße 5</p>
+              <p>80797 München, Deutschland</p>
             </section>
             
             <section>
