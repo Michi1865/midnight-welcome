@@ -29,7 +29,7 @@ const Imprint = () => {
               <p>mkind GmbH </p>
               <p>Freddie-Mercury-Straße 5</p>
               <p>80797 München, Deutschland</p>
-
+              <br>
               <p>Geschäftsführer: Michael Sauer</p>
               <p>Registergericht: Amtsgericht München</p>
               <p>Registernummer: HRB 311654</p>
