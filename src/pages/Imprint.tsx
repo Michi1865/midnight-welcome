@@ -26,9 +26,13 @@ const Imprint = () => {
           <div className="space-y-6 text-muted-foreground">
             <section>
               <h2 className="text-lg font-medium text-foreground mb-2">Angaben gemäß § 5 DDG</h2>
-              <p>Michael Sauer </p>
+              <p>mkind GmbH </p>
               <p>Freddie-Mercury-Straße 5</p>
               <p>80797 München, Deutschland</p>
+
+              <p>Geschäftsführer: Michael Sauer</p>
+              <p>Registergericht: Amtsgericht München</p>
+              <p>Registernummer: HRB 311654</p>
             </section>
             
             <section>
