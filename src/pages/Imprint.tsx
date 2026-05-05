@@ -33,7 +33,7 @@ const Imprint = () => {
             
             <section>
               <h2 className="text-lg font-medium text-foreground mb-2">Kontakt</h2>
-              <p>E-Mail: info@mkind.com</p>
+              <p>E-Mail: info@mkind.net</p>
               
             </section>
             
